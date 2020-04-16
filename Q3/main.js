@@ -23,7 +23,6 @@ function displayCats(jsonObj){
     let cats = jsonObj.cats;
 
     for (let i = 0; i < cats.length; i++) {
-
         //build HTML elements
         let section = document.querySelector('section');
         let article = document.createElement('article');
@@ -34,8 +33,8 @@ function displayCats(jsonObj){
         let img = document.createElement('img');
         // set the img source and name
         img.setAttribute('src',
-            'https://flamefiby.github.io/Module-Four/img/' + products.strangeProducts[i].image);
-        img.setAttribute('alt', products.strangeProducts[i].image);
+            'https://flamefiby.github.io/COMP1073FinalExam/Q3/img' + cats[i].image);
+        img.setAttribute('alt', cats[i].image);
 
         // given the name, price, and details to each product
         h2.textContent = cats[i].name;
