@@ -1,7 +1,7 @@
 // JavaScript Document
 
 // set the json url
-let url = 'https://mikemacgregor.github.io/COMP1073FinalExam/Q3/cats.json';
+let url = 'https://flamefiby.github.io/COMP1073FinalExam/Q3/cats.json';
 // select button
 let button = document.getElementById('button');
 button.addEventListener('click', fetchAll);
