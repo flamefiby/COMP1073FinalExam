@@ -33,7 +33,7 @@ function displayCats(jsonObj){
         let img = document.createElement('img');
         // set the img source and name
         img.setAttribute('src',
-            'https://flamefiby.github.io/COMP1073FinalExam/Q3/img' + cats[i].image);
+            'https://flamefiby.github.io/COMP1073FinalExam/Q3/img/' + cats[i].image);
         img.setAttribute('alt', cats[i].image);
 
         // given the name, price, and details to each product
